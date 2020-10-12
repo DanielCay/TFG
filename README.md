@@ -3,8 +3,8 @@ Trabajo Fin de Grado, Universidad de Zaragoza - Seguimiento y Segmentación de M
 
 Archivo adicional necesario
 ---------------------------
-1)Descargar de https://github.com/matterport/Mask_RCNN/releases -> mask_rcnn_coco.h5
-2)Colocarlo en TFG/codigo
+1) Descargar de https://github.com/matterport/Mask_RCNN/releases -> mask_rcnn_coco.h5
+2) Colocarlo en TFG/codigo
 
 ¿Cómo utilizarlo el Sistema de Seguimiento y Segmentación de Múltiples Objetos con Descriptores Aprendidos?
 -----------------------------------------------------------------------------------------------------------
