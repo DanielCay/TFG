@@ -3,8 +3,8 @@ Trabajo Fin de Grado, Universidad de Zaragoza - Seguimiento y Segmentación de M
 
 ![](prueba.gif)
 
-Paquetes necesarios
--------------------
+Paquetes de Python necesarios
+-----------------------------
 Ver el archivo requirements.txt
 
 Archivo adicional necesario
