@@ -12,7 +12,7 @@ Archivo adicional necesario
 1) Descargar de https://github.com/matterport/Mask_RCNN/releases -> mask_rcnn_coco.h5
 2) Colocarlo en TFG/codigo
 
-¿Cómo utilizarlo el Sistema de Seguimiento y Segmentación de Múltiples Objetos con Descriptores Aprendidos?
+¿Cómo utilizar el Sistema de Seguimiento y Segmentación de Múltiples Objetos con Descriptores Aprendidos?
 -----------------------------------------------------------------------------------------------------------
 1) Elije un vídeo sobre el que quieras realizar el Seguimiento y la Segmentación de coches ("prueba.mp4")
 2) Coloca el vídeo en TFG/videos
