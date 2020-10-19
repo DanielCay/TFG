@@ -14,7 +14,7 @@ Antes de utilizar el sistema:
   
     pip install -r requirements.txt
 
-  3) AÑadir archivo necesario para evitar tener que entrenar Mask R-CNN:
+  3) Añadir archivo necesario para evitar tener que entrenar Mask R-CNN:
   
     1) Descargar https://github.com/matterport/Mask_RCNN/releases -> mask_rcnn_coco.h5
     2) Colocarlo en TFG/codigo
