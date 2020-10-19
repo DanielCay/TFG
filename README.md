@@ -3,19 +3,22 @@ Trabajo Fin de Grado, Universidad de Zaragoza - Seguimiento y Segmentación de M
 
 ![](prueba.gif)
 
-Antes de utilizar el sistema hay que instalar:
+Antes de utilizar el sistema:
 ----------------------------------------------
+  
+  1) Probado con python 3.6. 
+     No utilizar versiones posteriores.
 
-  1) Paquetes de Python requeridos:
+  2) Instalar paquetes de Python:
   
     pip install -r requirements.txt
 
-  2) Archivo adicional necesario (para evitar tener que entrenar Mask R-CNN):
+  3) AÑadir archivo necesario para evitar tener que entrenar Mask R-CNN:
   
     1) Descargar https://github.com/matterport/Mask_RCNN/releases -> mask_rcnn_coco.h5
     2) Colocarlo en TFG/codigo
 
-  3) Funciones de COCO necesarias
+  4) Añadir Funciones de COCO necesarias
   
     Desde carpeta TFG:
 
