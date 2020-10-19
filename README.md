@@ -17,7 +17,7 @@ Antes de utilizar el sistema hay que instalar:
 
   3) Funciones de COCO necesarias
   
-    Desde TFG:
+    Desde carpeta TFG:
 
       cd codigo/coco/cocoapi/PythonAPI
       python setup.py build_ext install
