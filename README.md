@@ -2,15 +2,25 @@
 Trabajo Fin de Grado, Universidad de Zaragoza - Seguimiento y Segmentación de Múltiples Objetos con Descriptores Aprendidos (Multi-Object Tracking &amp; Segmentation with Learnt Descriptors)
 
 ![](prueba.gif)
+-----------------
+¿Cómo instalarlo?
+-----------------
 
-Paquetes de Python necesarios
+1)Paquetes de Python necesarios
 -----------------------------
-Ver el archivo requirements.txt
+pip install -r requirements.txt
 
-Archivo adicional necesario
----------------------------
+2)Archivo adicional necesario (para evitar tener que entrenar Mask R-CNN)
+-------------------------------------------------------------------------
 1) Descargar de https://github.com/matterport/Mask_RCNN/releases -> mask_rcnn_coco.h5
 2) Colocarlo en TFG/codigo
+
+3)Funciones de COCO necesarias
+------------------------------
+Desde TFG:
+  cd codigo/coco/cocoapi/PythonAPI
+  python setup.py build_ext install
+  rm -rf build
 
 ¿Cómo utilizar el Sistema de Seguimiento y Segmentación de Múltiples Objetos con Descriptores Aprendidos?
 -----------------------------------------------------------------------------------------------------------
