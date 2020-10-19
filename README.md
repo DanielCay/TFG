@@ -7,13 +7,16 @@ Antes de utilizar el sistema hay que instalar:
 ----------------------------------------------
 
   1)Paquetes de Python requeridos:
+  
     pip install -r requirements.txt
 
   2)Archivo adicional necesario (para evitar tener que entrenar Mask R-CNN):
+  
     1) Descargar de https://github.com/matterport/Mask_RCNN/releases -> mask_rcnn_coco.h5
     2) Colocarlo en TFG/codigo
 
   3)Funciones de COCO necesarias
+  
     Desde TFG:
 
       cd codigo/coco/cocoapi/PythonAPI
