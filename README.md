@@ -12,7 +12,7 @@ Antes de utilizar el sistema hay que instalar:
 
   2) Archivo adicional necesario (para evitar tener que entrenar Mask R-CNN):
   
-    1) Descargar [AQUI!](https://github.com/matterport/Mask_RCNN/releases) -> mask_rcnn_coco.h5
+    1) Descargar https://github.com/matterport/Mask_RCNN/releases -> mask_rcnn_coco.h5
     2) Colocarlo en TFG/codigo
 
   3) Funciones de COCO necesarias
