@@ -20,9 +20,7 @@ Antes de utilizar el sistema hay que instalar:
     Desde TFG:
 
       cd codigo/coco/cocoapi/PythonAPI
-
       python setup.py build_ext install
-
       rm -rf build
 
 ¿Cómo utilizar el Sistema de Seguimiento y Segmentación de Múltiples Objetos con Descriptores Aprendidos?
