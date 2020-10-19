@@ -19,7 +19,7 @@ Antes de utilizar el sistema:
     1) Descargar https://github.com/matterport/Mask_RCNN/releases -> mask_rcnn_coco.h5
     2) Colocarlo en TFG/codigo
 
-  4) Añadir Funciones de COCO necesarias
+  4) Otras funciones necesarias
   
     Desde carpeta TFG:
       
