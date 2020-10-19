@@ -1,7 +1,6 @@
 import numpy as np
-from funcionesAux import visualize
-from funcionesAux import obtenerMascaras
-from funcionesAux import asociarObjetos
+import codigo.funcionesAux.visualize as visualize
+import codigo.funcionesAux.asociarObjetos as asociarObjetos
 from munkres import Munkres, print_matrix
 
 # paquetes para el tracker

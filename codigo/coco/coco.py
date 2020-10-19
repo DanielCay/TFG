@@ -39,9 +39,9 @@ import imgaug  # https://github.com/aleju/imgaug (pip3 install imgaug)
 # I submitted a pull request https://github.com/cocodataset/cocoapi/pull/50
 # If the PR is merged then use the original repo.
 # Note: Edit PythonAPI/Makefile and replace "python" with "python3".
-from pycocotools.coco import COCO
-from pycocotools.cocoeval import COCOeval
-from pycocotools import mask as maskUtils
+from codigo.coco.cocoapi.PythonAPI.pycocotools.coco import COCO
+from codigo.coco.cocoapi.PythonAPI.pycocotools.cocoeval import COCOeval
+from codigo.coco.cocoapi.PythonAPI.pycocotools import mask as maskUtils
 
 import zipfile
 import urllib.request
@@ -52,8 +52,8 @@ ROOT_DIR = os.path.abspath("../../")
 
 # Import Mask RCNN
 sys.path.append(ROOT_DIR)  # To find local version of the library
-from funcionesAux.config import Config
-from funcionesAux import model as modellib, utils
+from codigo.funcionesAux.config import Config
+from codigo.funcionesAux import model as modellib, utils
 
 # Path to trained weights file
 COCO_MODEL_PATH = os.path.join(ROOT_DIR, "mask_rcnn_coco.h5")

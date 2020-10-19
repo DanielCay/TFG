@@ -30,7 +30,8 @@ import keras.layers as KL
 import keras.engine as KE
 import keras.models as KM
 
-from funcionesAux import utils, visualize
+import codigo.funcionesAux.utils as utils
+import codigo.funcionesAux.visualize as visualize
 
 # Requires TensorFlow 1.3+ and Keras 2.0.8+.
 from distutils.version import LooseVersion

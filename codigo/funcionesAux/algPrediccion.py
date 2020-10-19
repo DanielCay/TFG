@@ -1,6 +1,5 @@
 import numpy as np
-from funcionesAux import visualize
-from funcionesAux import obtenerMascaras
+import codigo.funcionesAux.visualize as visualize
 from munkres import Munkres, print_matrix
 
 # paquetes para el tracker
