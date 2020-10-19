@@ -6,7 +6,8 @@ Trabajo Fin de Grado, Universidad de Zaragoza - Seguimiento y Segmentación de M
 Antes de utilizar el sistema:
 ----------------------------------------------
   
-  1) Probado con python 3.6. 
+  1) Probado con la versión de python 3.6. 
+  
      No utilizar versiones posteriores.
 
   2) Instalar paquetes de Python:
