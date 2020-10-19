@@ -1,5 +1,4 @@
 imutils
-opencv-contrib-python
 munkres
 sklearn
 numpy
