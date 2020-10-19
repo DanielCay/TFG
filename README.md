@@ -23,7 +23,6 @@ Antes de utilizar el sistema:
   
     Desde carpeta TFG:
       
-      pip install opencv-contrib-python
       cd codigo/coco/cocoapi/PythonAPI
       python setup.py build_ext install
       rm -rf build
