@@ -110,8 +110,8 @@ def display_instances(image, ruta, ids, colores, boxes, masks, class_ids, class_
     # Show area outside image boundaries.
     height, width = image.shape[:2]
                                                           #tamaño de la pantalla de la imagen
-    ax.set_ylim(height + 10, -10)
-    ax.set_xlim(-10, width + 10)
+    ax.set_ylim(height , 0)
+    ax.set_xlim(0, width)
     ax.axis('off')
     ax.set_title(title)
 
@@ -168,7 +168,8 @@ def display_instances(image, ruta, ids, colores, boxes, masks, class_ids, class_
     ax.imshow(masked_image.astype(np.uint8))              #dibujar imagen original 
     
     if auto_show:
-        plt.savefig(ruta, bbox_inches="tight", pad_inches=-0.09)
+        #plt.savefig(ruta, bbox_inches="tight", pad_inches=-0.09)
+        plt.savefig(ruta, bbox_inches="tight")
         plt.show()
         
     
