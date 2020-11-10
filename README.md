@@ -3,7 +3,7 @@ Trabajo Fin de Grado, Universidad de Zaragoza - Seguimiento y Segmentación de M
 
 ![](ejemplo.gif)
 
-Ejemplo de los resultados obtenidos con el sistema -> https://www.youtube.com/watch?v=Xw1aob3RjWw&t=5s
+Ejemplo de los resultados obtenidos con el sistema -> https://youtu.be/Xw1aob3RjWw
 
 Antes de utilizar el sistema:
 ----------------------------------------------
